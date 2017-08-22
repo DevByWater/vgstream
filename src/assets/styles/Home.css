@@ -1,0 +1,21 @@
+
+.Home > .jumbotron {
+    height: 100%;
+    background-image: url("../img/gaming_bg.jpg");
+    height: 100vh;
+    background-size: cover;
+    border-radius: 0;
+}
+
+.header {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(255, 255, 255);
+}
+
+.header > h1{
+    padding-bottom: 20px;
+    color: rgb(244, 232, 239);
+    background-color: rgba(222, 79, 176, 0.50);
+    margin-bottom: 20px;
+}
