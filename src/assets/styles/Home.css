@@ -2,7 +2,7 @@
 .Home > .jumbotron {
     height: 100%;
     background-image: url("../img/gaming_bg.jpg");
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
     border-radius: 0;
 }

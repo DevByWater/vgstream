@@ -5,3 +5,5 @@ export const fbConfig = {
     authDomain: "vgstream-28753.firebaseapp.com",
     databaseURL: "https://vgstream-28753.firebaseio.com"
 }
+
+export const TWITCH_CLIENT_ID = '86u290rnpqagqbuyo593xowsks8iba';

@@ -17,6 +17,20 @@
 .App-intro {
   font-size: large;
 }
+.Nav .navbar-brand {
+  color: rgb(192, 58, 131);
+}
+.Nav .navbar-brand:hover {
+  color: rgb(227, 75, 157);
+}
+.form-btn{
+  background-color: rgb(192, 58, 131);
+  color: white; 
+}
+.form-btn:hover{
+  background-color: rgb(210, 31, 128);
+  cursor: pointer;
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
