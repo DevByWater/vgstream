@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-import Home from './Home';
-import Nav from './Nav';
-import StreamList from './streams/StreamList';
+import Home from '../components/Home';
+import Nav from '../components/Nav';
+import StreamList from '../components/streams/StreamList';
 
 
-import './App.css';
+import '../assets/styles/App.css';
 
 class App extends Component {
   render() {
