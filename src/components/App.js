@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Home from './Home';
 import Nav from './Nav';
+import StreamList from './streams/StreamList';
 
 
 import './App.css';
@@ -12,6 +13,7 @@ class App extends Component {
       <div className="App">
         <Nav />
         <Home />
+        <StreamList />
       </div>
     );
   }
