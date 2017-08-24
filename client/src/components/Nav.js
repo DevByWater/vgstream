@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Nav = () => {
     return (
         <nav className="navbar navbar-expand-md fixed-top navbar-dark bg-dark Nav">
-            <a className="navbar-brand brand" href="#">VG_streams</a>
+            <a className="navbar-brand brand" href="#">VG_STREAMS</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
             </button>
@@ -14,7 +14,7 @@ const Nav = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Link</a>
+                    <Link className="nav-link" to="/streams">Live Streams</Link>
                 </li>
             </ul>
             <form className="form-inline my-2 my-lg-0">

@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 
-import Home from '../components/Home';
-import Nav from '../components/Nav';
-import StreamList from '../components/streams/StreamList';
-
+import Nav from './Nav';
 
 import '../assets/styles/App.css';
 
@@ -12,10 +9,9 @@ class App extends Component {
     return (
       <div className="App">
         <Nav />
-        <Home />
-        <StreamList />
+        {this.props.children}
       </div>
-    );
+    )
   }
 }
 
