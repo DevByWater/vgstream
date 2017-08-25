@@ -1,18 +1,22 @@
 import React, { Component } from 'react';
+import ReactHtmlParser from 'react-html-parser';
 
 class StreamListItem extends Component{
+
     render(){
         return (
-            <li className="">
-                <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="..." alt="Card image cap" />
-                <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            
+                <div className="col-xs-12 col-sm-8 col-md-6 col-lg-4 mt-3">
+                    <div className="card h-100 text-white bg-dark text-center border-0">
+                        <img className="card-img-top" src={this.props.stream.image} alt="Card image cap" />
+                        <div className="card-body">
+                            <h4 className="card-title text-truncate">{this.props.stream.title}</h4>
+                            <div className="mb-1 card-text text-truncate">
+                                { ReactHtmlParser(this.props.stream.text)}
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                </div>
-            </li>
         )
     }
 }
